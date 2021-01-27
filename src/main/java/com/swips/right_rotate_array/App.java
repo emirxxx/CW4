@@ -31,7 +31,8 @@ public class App {
             
         // rotate the given array by n times toward right    
         for (int i = 0; i < n; i++) {    
-            int j, last;    
+            int j; 
+            int last;    
             // store the last element of array    
             last = intArr[intArr.length - 1];    
             
